@@ -19,7 +19,7 @@ def predict_note_authentication(Glucose,BMI,Age,DiabetesPedigreeFunction):
 
 
 def main():
-    st.markdown('<div style="text-align: center;"><h1>Thyroid Prediction</h1></div>', unsafe_allow_html=True)
+    #st.markdown('<div style="text-align: center;"><h1>Thyroid Prediction</h1></div>', unsafe_allow_html=True)
     html_temp = """
     <div style="background-color:pink;padding:1px; margin-bottom:40px">
     <h1 style="color:black;text-align:center;">DIABETES PREDICTION ML APP </h1>
