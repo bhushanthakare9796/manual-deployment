@@ -27,7 +27,7 @@ def main():
     """
     
     
-    #st.markdown(html_temp,unsafe_allow_html=True)
+    st.markdown(html_temp,unsafe_allow_html=True)
     if "visibility" not in st.session_state:
         st.session_state.visibility = "visible"
         st.session_state.disabled = False
